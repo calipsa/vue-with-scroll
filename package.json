@@ -34,7 +34,7 @@
     "eslint": "^6.5.1",
     "lodash": "^4.17.15",
     "mini-css-extract-plugin": "^0.8.0",
-    "np": "^5.1.1",
+    "np": "^5.1.2",
     "vue-loader": "^15.7.2",
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.41.2",
