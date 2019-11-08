@@ -1,19 +1,13 @@
 <template>
-  <Fragment>
-    <slot />
-  </Fragment>
+  <div>
+    random string
+  </div>
 </template>
 
 <script>
-import { Fragment } from 'vue-fragment'
-
 import getDistanceFromBottom from './getDistanceFromBottom'
 
 export default {
-  components: {
-    Fragment,
-  },
-
   props: {
     bottomThreshold: Number,
     resetKey: [String, Number, Boolean, Object],
