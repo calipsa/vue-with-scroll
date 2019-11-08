@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <Fragment>
     <slot />
-  </div>
+  </Fragment>
 </template>
 
 <script>
