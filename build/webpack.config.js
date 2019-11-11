@@ -31,11 +31,11 @@ module.exports = {
     ],
     modules: [
       path.resolve(rootDir, 'src'),
-      'node_modules',
+      // 'node_modules',
     ],
   },
 
-  // externals: [nodeExternals()],
+  externals: [nodeExternals()],
 
   devtool: 'source-map',
 
