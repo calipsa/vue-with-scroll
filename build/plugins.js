@@ -1,9 +1,7 @@
 const webpack = require('webpack')
 const { VueLoaderPlugin } = require('vue-loader')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const { compact } = require('lodash')
 
-module.exports = compact([
+module.exports = [
   new VueLoaderPlugin(),
 
   new webpack.DefinePlugin({
@@ -11,8 +9,4 @@ module.exports = compact([
       NODE_ENV: '"production"',
     },
   }),
-
-  new MiniCssExtractPlugin({
-    chunkFilename: '[id].[contenthash].css',
-  }),
-])
+]
