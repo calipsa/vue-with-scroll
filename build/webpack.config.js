@@ -10,7 +10,7 @@ const plugins = require('./plugins')
 module.exports = {
   mode: 'production',
 
-  target: 'node',
+  // target: 'node',
 
   entry: './src',
 

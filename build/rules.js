@@ -1,5 +1,3 @@
-const { compact } = require('lodash')
-
 const cssLoaders = require('./utils/cssLoaders')
 const styleLoaders = require('./utils/styleLoaders')
 
