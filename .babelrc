@@ -12,14 +12,12 @@
         ]
       }
     }]
-    
   ],
   "plugins": [
     ["@babel/plugin-transform-runtime", {
       "helpers": true,
       "regenerator": true
-    }],
-    "@babel/plugin-syntax-dynamic-import"
+    }]
   ],
   "env": {
     "test": {
