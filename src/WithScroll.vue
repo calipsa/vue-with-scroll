@@ -10,6 +10,8 @@ import { Fragment } from 'vue-fragment'
 import getDistanceFromBottom from './getDistanceFromBottom'
 
 export default {
+  name: 'WithScroll',
+
   components: {
     Fragment,
   },

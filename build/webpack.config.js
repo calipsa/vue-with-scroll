@@ -19,6 +19,8 @@ module.exports = {
     path: path.resolve(rootDir, './dist'),
     // and filename
     filename: 'index.js',
+    // library: 'WithScroll',
+    // libraryTarget: 'umd',
   },
 
   resolve: {
