@@ -10,7 +10,7 @@ const plugins = require('./plugins')
 module.exports = {
   mode: 'production',
 
-  // target: 'node',
+  target: 'node',
 
   entry: './src',
 
@@ -19,8 +19,9 @@ module.exports = {
     path: path.resolve(rootDir, './dist'),
     // and filename
     filename: 'index.js',
-    // library: 'WithScroll',
-    // libraryTarget: 'umd',
+    // libraryExport: 'default',
+    library: 'WithScroll',
+    libraryTarget: 'umd',
   },
 
   resolve: {
