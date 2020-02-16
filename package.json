@@ -1,6 +1,6 @@
 {
   "name": "@calipsa/vue-with-scroll",
-  "version": "0.0.50",
+  "version": "0.1.0",
   "description": "WithScroll component for Vue",
   "main": "dist/vue-with-scroll.umd.js",
   "scripts": {
