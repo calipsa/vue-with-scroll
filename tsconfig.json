@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "ES2015",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "pretty": true,
+    "declaration": true,
+    "alwaysStrict": true,
+    "allowJs": true,
+    // "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "downlevelIteration": true,
+    "lib": [
+      "esnext",
+      "DOM"
+    ],
+    "outDir": "dist"
+  },
+  "include": [
+    "src/**/*", "src/WithScroll.stories.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "text"
+  ]
+}

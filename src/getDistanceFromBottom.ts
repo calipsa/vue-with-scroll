@@ -1,7 +1,4 @@
-/**
- * @param {HTMLElement} el
- */
-export default (el) => {
+export default (el: HTMLElement) => {
   if (!el) {
     return
   }

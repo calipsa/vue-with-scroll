@@ -1,17 +1,8 @@
-<template>
-  <Fragment>
-    <slot />
-  </Fragment>
-</template>
-
-<script>
 import { Fragment } from 'vue-fragment'
 
 import getDistanceFromBottom from './getDistanceFromBottom'
 
 export default {
-  name: 'WithScroll',
-
   components: {
     Fragment,
   },
@@ -136,5 +127,8 @@ export default {
       this.handleReachBottom()
     },
   },
+
+  render(h) {
+    return h(Fragment, this.$slots.default)
+  },
 }
-</script>

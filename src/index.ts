@@ -3,7 +3,7 @@ import WithScroll from './WithScroll'
 let installed = false
 
 export default {
-  install(Vue) {
+  install(Vue: any) {
     if (installed) {
       return
     }

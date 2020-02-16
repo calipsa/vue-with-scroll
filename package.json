@@ -2,12 +2,12 @@
   "name": "@calipsa/vue-with-scroll",
   "version": "0.0.50",
   "description": "WithScroll component for Vue",
-  "main": "src/index.js",
+  "main": "dist/vue-with-scroll.umd.js",
   "scripts": {
     "storybook": "start-storybook",
     "test": "jest --no-cache --passWithNoTests",
     "lint": "eslint './src/**/*.ts'",
-    "build": "rm -rf dist && webpack --colors --config build/webpack.config.js",
+    "build": "rm -rf dist && tsc --outDir dist",
     "version": "npm run build",
     "release": "np"
   },
@@ -25,24 +25,20 @@
     "vue-fragment": "^1.5.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/plugin-transform-runtime": "^7.6.2",
-    "@babel/preset-env": "^7.7.1",
-    "@calipsa/eslint-config-vue": "^1.1.0",
-    "@storybook/addon-actions": "^5.2.6",
-    "@storybook/cli": "^5.2.6",
-    "@storybook/vue": "^5.2.6",
+    "@babel/core": "^7.8.4",
+    "@calipsa/eslint-config-typescript": "^1.2.1",
+    "@storybook/addon-actions": "^5.3.13",
+    "@storybook/cli": "^5.3.13",
+    "@storybook/vue": "^5.3.13",
     "babel-loader": "^8.0.6",
     "babel-preset-vue": "^2.0.2",
-    "eslint": "^6.5.1",
-    "eslint-import-resolver-webpack": "^0.11.1",
-    "jest": "^24.9.0",
-    "np": "^5.1.2",
-    "vue": "^2.6.10",
-    "vue-loader": "^15.7.2",
-    "vue-template-compiler": "^2.6.10",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
-    "webpack-node-externals": "^1.7.2"
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "np": "^5.2.1",
+    "typescript": "^3.7.5",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.6"
   }
 }

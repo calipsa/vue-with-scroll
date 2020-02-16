@@ -1,7 +1,9 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { storiesOf } from '@storybook/vue'
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { action } from '@storybook/addon-actions'
 
-import { WithScroll } from '../src'
+import { WithScroll } from '../dist'
 
 function generateItems(n) {
   const arr = []

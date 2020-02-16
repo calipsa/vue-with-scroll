@@ -2,7 +2,7 @@ module.exports = {
   root: true,
 
   extends: [
-    '@calipsa/eslint-config-vue',
+    '@calipsa/eslint-config-typescript',
   ],
 
   settings: {
