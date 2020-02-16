@@ -2,7 +2,7 @@
   "name": "@calipsa/vue-with-scroll",
   "version": "0.1.0",
   "description": "WithScroll component for Vue",
-  "main": "dist/vue-with-scroll.umd.js",
+  "main": "dist/index.js",
   "scripts": {
     "storybook": "start-storybook",
     "test": "jest --no-cache --passWithNoTests",
