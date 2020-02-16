@@ -4,12 +4,4 @@ module.exports = {
   extends: [
     '@calipsa/eslint-config-typescript',
   ],
-
-  settings: {
-    'import/resolver': {
-      'webpack': {
-        'config': 'build/webpack.config.js',
-      },
-    },
-  },
 }
